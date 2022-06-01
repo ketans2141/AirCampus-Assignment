@@ -1,0 +1,259 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* =======header========= */
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.head{
+    background-color:#293462;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 500;
+}
+.container1{
+    max-width: 1400px;
+    margin: auto;
+}
+.brand{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #F24C4C;
+}
+.brand:hover{
+    color: #ECE5C7;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ECE5C7;
+}
+a:hover{
+    color:#F7D716;
+    text-decoration: underline;
+}
+.btn{
+    font-size: 23px;
+    font-weight: 600;
+    border: none;
+    padding: 5px 15px ;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+/* ======= Positioning elements using float===== */
+.sec1{
+    background-color:#F9F3EE;
+    height: 600px;
+}
+.boxhead1{
+    width: 600px;
+    margin: auto;
+    text-transform: uppercase;
+    /* margin-bottom: 30px; */
+    padding: 50px 0px;
+}
+.container2{
+    max-width: 1250px;
+    margin: auto;
+    /* margin-top: 100px; */
+}
+span{
+    font-size: 40px;
+}
+/* h2{
+    width: 350px;
+    margin: auto;
+} */
+.outerbox1{
+    width: 350px;
+    height: 350px;
+    border: 3px solid red;
+    text-align: center;
+    padding: 10px;
+    float: left;
+    /* margin: 0 auto; */
+    margin-right: 40px;
+}
+.boxf{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+#box1, #box3, #box4, #box6, #box7, #box9{
+    background-color: #6BCB77;
+    border: 5px solid #019267;
+  
+}
+#box2, #box5, #box8{
+    background-color: orange;
+    border: 5px solid red;
+}
+#box5{
+    float: left;
+}
+#box8{
+    float: right;
+}
+/* =======Uniquely Positioning content===== */
+.sec2{
+    padding-top: 50px;
+    background-color: #f8f6c7;
+}
+.container3{
+    max-width: 1250px;
+    margin: auto;
+    /* margin-top: 00px; */
+}
+.boxhead2{
+    width: 500px;
+    margin: auto;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+
+}
+.outerbox2{
+    width: 350px;
+    height: 400px;
+    border: 3px solid red;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+.boxp{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+#box10, #box12, #box13, #box15, #box16, #box18, #box19, #box21{
+    background-color: #F24A72;
+    border: 5px solid #D82148;
+}
+#box11, #box14, #box17, #box20{
+    background-color: orange;
+    border: 5px solid red;
+}
+#box14{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    z-index: 20px;
+}
+#box17{
+    position: absolute;
+   right: 400px;
+   z-index: 20;
+}
+.para1{
+    overflow: scroll;
+    position: relative;
+    left: 420px;
+    z-index: 20;
+    
+}
+#box20{
+    position: sticky;
+    top: 130px;
+    z-index: 20px;
+}
+/* ============Positioning with FLex========= */
+.sec3{
+    background-color: #FFEEEE;
+    padding-top: 100px;
+}
+.container4{
+    max-width: 1250px;
+    margin: auto;
+    padding: 50px 0px;
+}
+.boxhead3{
+    width: 350px;
+    margin: auto;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+
+}
+.outerdiv{
+    padding-bottom: 50px;
+}
+.flex1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.flexbox{
+    width: 140px;
+    height: 140px;
+    border: 5px solid #293462 ;
+    background-color: #92B4EC;
+    margin: 10px;
+    border-radius: 8px;
+}
+.flex2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.p1{
+    padding: 55px 45px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.cont1{
+    width: 460px;
+    text-align: center;
+    
+}
+.flex3{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-top: 100px;
+    height: 500px;
+    width: 900px;
+    justify-content: space-around;
+    /* justify-content: center; */
+    
+}
+.container5{
+    max-width: 1250px;
+    margin: auto;
+    padding: 50px 0px;
+}
+.line{
+    border-top: 5px solid red;
+}
+/* ==================footer=============== */
+.icons{
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* color: black; */
+}
+.foot{
+    background-color: #293462;
+}
+.links{
+    color: #f8f6c7;
+    padding: 30px;
+    line-height: 5px;
+    font-size: 30px;
+}
